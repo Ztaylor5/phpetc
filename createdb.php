@@ -12,7 +12,7 @@
             // connect to the database
             $conn = mysqli_init();
             mysqli_real_connect($conn, $host, $user, $password, $db, 3306);
-            $query = "CREAT TABLE visitor
+            $query = "CREATE TABLE visitor
             (
                 visitorid INTEGER AUTO_INCREMENT,
                 visitorName VARCHAR(100) NOT NULL,
