@@ -16,9 +16,14 @@
 </form>
 <?php
 //replace the user and password with your credentials
-$host = "dropbox07new.mysql.database.azure.com";
-#user = "ztaylor5";
+$host = "dropbox07assignment.azurewebsites.net";
+$user = "ztaylor5";
 $password = "Jinisb34n$"
+/*
+$database = "visitorDB";
+// connect to the database
+$conn = mysqli_connect($host, $user, $password, $database);
+*/
 $db = "visitordb";
 // connect to the database
 $conn = mysqli_init();
