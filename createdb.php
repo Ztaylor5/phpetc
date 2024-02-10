@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <meta charset = "utf-8">
     <head>
+    <meta charset = "utf-8">
+<title>Create MySQL DB on Azure</title>
+    </head>
         <body>
             <?php
             //replace the user name and password with your credentials
@@ -25,4 +27,4 @@
             mysqli_close($conn);
             ?>
         </body>
-    </head>
+    </html>
