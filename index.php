@@ -16,7 +16,7 @@
 </form>
 <?php
 //replace the user and password with your credentials
-$host = " dropbox07new.mysql.database.azure.com";
+$host = "dropbox07new.mysql.database.azure.com";
 #user = "ztaylor5";
 $password = "Jinisb34n$"
 $db = "visitordb";
